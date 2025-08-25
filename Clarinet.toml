@@ -1,27 +1,27 @@
 [project]
-name = "nodepulse"
-authors = []
-description = ""
+name = "ganache-parse"
+authors = ["Dio Cynthia <dio@example.com>"]
+description = "Decentralized blockchain node performance monitoring and rewards platform"
 telemetry = false
 requirements = []
 [contracts.governance]
 path = "contracts/governance.clar"
 depends_on = []
 
-[contracts.metric-verification]
-path = "contracts/metric-verification.clar"
+[contracts.data-validator]
+path = "contracts/data-validator.clar"
 depends_on = []
 
-[contracts.node-registry]
-path = "contracts/node-registry.clar"
+[contracts.node-manager]
+path = "contracts/node-manager.clar"
 depends_on = []
 
-[contracts.performance-reporting]
-path = "contracts/performance-reporting.clar"
+[contracts.metric-tracker]
+path = "contracts/metric-tracker.clar"
 depends_on = []
 
-[contracts.rewards-distribution]
-path = "contracts/rewards-distribution.clar"
+[contracts.reward-allocator]
+path = "contracts/reward-allocator.clar"
 depends_on = []
 
 [repl]
